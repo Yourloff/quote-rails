@@ -52,11 +52,9 @@ blockquote {
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
 }
 blockquote:before {
-    content: "\f10d";
-    font-family: FontAwesome;
+    content: "*";
     position: absolute;
     z-index: 2;
     left: 50%;
@@ -68,7 +66,7 @@ blockquote:before {
     padding: 0 15px;
 }
 blockquote:after {
-    content: "";
+    content: "*";
     position: absolute;
     left: 15px;
     top: 20px;
