@@ -12,7 +12,8 @@ body {
     background-color: mistyrose;
 }
 .content {
-    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
 }
 .footer {
     position: absolute;
@@ -40,11 +41,10 @@ a.author:hover,  /* при наведении */
 a.author {
     text-decoration: none;
     color: #000;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 blockquote {
-    margin: 0;
     background: #FFF4E0;
     color: #474C4F;
     padding: 50px;
@@ -85,4 +85,10 @@ blockquote p {
 blockquote cite {
     font-style: normal;
     font-weight: 300;
+}
+
+.img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
